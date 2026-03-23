@@ -26,6 +26,7 @@ Users submit encrypted bids from the browser. The contract computes the highest 
 ## Project Status
 
 SealBid is live on Base Sepolia.
+This repository is maintained with Base Sepolia as the deployment target.
 
 1. Network: Base Sepolia
 2. Chain ID: 84532
@@ -131,8 +132,10 @@ Set these values in frontend .env.local to match the deployed contract.
 ```bash
 VITE_CHAIN_ID=84532
 ```
+
 ```bash
 VITE_CONTRACT_ADDRESS=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
+
 ```
 ```bash
 VITE_SEALBID_ADDRESS_84532=0x9847d973FD671DCE663a2e325D97c1E7d49c04CF
